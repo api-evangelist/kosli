@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kosli is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by heavybit) and added to the network as a stub for full-pipeline profiling.
-- https://www.kosli.com
+Kosli provides governance infrastructure for AI-driven software development lifecycle (SDLC). It offers an append‑only evidence store, automated compliance checks, AI‑powered insights, and integrations with CI pipelines to ensure secure, auditable software delivery. Backed by Heavybit and Deutsche Bank, Kosli helps teams enforce policies, track changes, and achieve continuous compliance across cloud and on‑prem environments.
+
+**Areas:** Company · AI · Governance · Compliance · DevOps
+
+## Kosli on APIs.io
+
+Everything profiled for Kosli is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kosli/](https://apis.io/providers/kosli/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Kosli API](https://apis.io/apis/kosli/kosli-api/) — Kosli API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetActionsOrgActionnumberResponse](https://apis.io/schemas/kosli/kosli-get-actions-org-actionnumber-response/)
+- [GetApiV2EnvironmentsYourorgnameResponse](https://apis.io/schemas/kosli/kosli-get-api-v2-environments-yourorgname-response/)
+- [GetFlowsOrgResponse](https://apis.io/schemas/kosli/kosli-get-flows-org-response/)
+- [GetReposOrgResponse](https://apis.io/schemas/kosli/kosli-get-repos-org-response/)
+- [PostAttestationsOrgUploadsResponse](https://apis.io/schemas/kosli/kosli-post-attestations-org-uploads-response/)
+- [PutFlowsOrgFlownameRenameResponse](https://apis.io/schemas/kosli/kosli-put-flows-org-flowname-rename-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kosli Context](https://apis.io/jsonld/kosli/kosli-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Kosli API Rules](https://apis.io/rules/kosli/kosli-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kosli Domain Security](https://apis.io/security/kosli/kosli-domain-security/)
+- [Kosli Trust Center](https://apis.io/security/kosli/kosli-trust-center/)
+- [Kosli Vulnerability Disclosure](https://apis.io/security/kosli/kosli-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kosli.com)
+- [Getting started](https://www.kosli.com/getting-started-with-kosli-course/)
+- [API reference](https://docs.kosli.com/)
+- [Pricing](https://www.kosli.com/pricing/)
+- [Support](https://www.kosli.com/contact/)
+- [Changelog](https://docs.kosli.com/changelog)
+- [Blog](https://www.kosli.com/blog/)
+- [Security](https://www.kosli.com/security)
+- [Compliance](https://www.kosli.com/security/)
+- [Terms of service](https://www.kosli.com/privacy-policy/terms-of-use/)
+- [Privacy policy](https://www.kosli.com/privacy-policy/privacy-notice/)
+- [GitHub](https://github.com/kosli-dev)
+
+## API Evangelist rating
+
+**Kin Score 53.6** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 53.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 47.4 |
+
+**Agent readiness 48.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kosli/](https://apis.io/providers/kosli/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kosli: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kosli/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
